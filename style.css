@@ -24,7 +24,7 @@ html, body {
     box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
     width: 90%;
     max-width: 800px;
-    position: absolute;
+    position: fixed;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -35,3 +35,12 @@ html, body {
     font-size: 36px;
     margin-top: -20px;
 }
+
+@media only screen and (max-width: 600px) {
+    .vibhav {
+        width: 90%;
+        max-width: 90%;
+        padding: 20px;
+    }
+}
+
